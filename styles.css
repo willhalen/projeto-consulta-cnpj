@@ -1,0 +1,122 @@
+body {
+    font-family: "Roboto", sans-serif!important;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px!important;
+}
+
+button#consultar-btn {
+    border-radius: 5px;
+}
+.container label {
+    width: 170px;
+    display: inline-block;
+    font-size: 13px;
+}
+.container .first{
+    justify-content: center;
+    display: flex;
+    align-items: top;
+    background: hsla(153, 63%, 46%, 1);
+
+background: linear-gradient(90deg, hsla(153, 63%, 46%, 1) 0%, hsla(153, 63%, 46%, 1) 50%, hsla(118, 34%, 56%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(153, 63%, 46%, 1) 0%, hsla(153, 63%, 46%, 1) 50%, hsla(118, 34%, 56%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(153, 63%, 46%, 1) 0%, hsla(153, 63%, 46%, 1) 50%, hsla(118, 34%, 56%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2CBF7C", endColorstr="#2CBF7D", GradientType=1 );
+    border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+    color: #fff;
+}
+
+.container .first h2 {
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+.container .secondCnpj {
+    background: #cccccc47;
+    border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+}
+.container .secondCnpj h1,
+.container .secondCnpj h2,
+.container .secondCnpj h3 {
+    font-size: 1.5rem;
+}
+.container .secondCnpj h3 {
+    padding: 10px 0;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 70%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#resultado {
+    margin-top: 20px;
+}
+
+.card-socio {
+    background-color: #f9f9f9;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 576px) {
+    .container .first {
+        margin-bottom: 10px;
+        border-radius: 3px;
+    }
+    .container .secondCnpj,
+    .container .first {
+        border-radius: 5px;
+    }
+    .container .secondCnpj h2 {
+        font-size: 24px;
+    }
+}
+
+/*Template codepen*/
+/*https://codepen.io/emcevoy/pen/MRevZx*/
