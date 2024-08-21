@@ -8,4 +8,4 @@ Este projeto permite consultar informações de empresas utilizando o CNPJ via a
    ```bash
    git clone https://github.com/usuario/projeto-consulta-cnpj.git
 
-<img src="https://raw.githubusercontent.com/willhalen/projeto-consulta-cnpj/main/consultaCnpj.png></img>
+<img src="https://raw.githubusercontent.com/willhalen/projeto-consulta-cnpj/main/consultaCnpj.png"></img>
